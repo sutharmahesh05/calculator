@@ -1,0 +1,50 @@
+/* Style the entire calculator container */
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  /* Style the calculator itself */
+  .calculator {
+    background-color: #f0f0f0; /* Light gray background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: sans-serif; /* Use a generic sans-serif font */
+  }
+  
+  /* Style the display area */
+  .display {
+    background-color: #e0e0e0; /* Slightly darker gray background */
+    border: none; /* Remove default border */
+    padding: 15px; /* Add some padding */
+    font-size: 20px; /* Increase font size for better readability */
+    text-align: right; /* Right-align the text */
+  }
+  
+  /* Style the buttons */
+  .operator,
+  .button {
+    background-color: #ddd; /* Light gray background for buttons */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners for buttons */
+    padding: 10px; /* Add some padding */
+    margin: 5px; /* Add some margin between buttons */
+    font-size: 16px; /* Set font size for buttons */
+    cursor: pointer; /* Indicate clickable elements */
+  }
+  
+  /* Style the operator buttons (different background color) */
+  .operator {
+    background-color: #ccc; /* Lighter gray for operator buttons */
+  }
+  
+  /* Style the equals button (different background color and width) */
+  .equal {
+    background-color: #999; /* Darker gray for equals button */
+    width: calc(100% - 40px); /* Span the entire width minus margins */
+  }
+  
